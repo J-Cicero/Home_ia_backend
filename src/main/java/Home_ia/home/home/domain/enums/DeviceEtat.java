@@ -1,4 +1,4 @@
-package home.domain.enums;
+package Home_ia.home.home.domain.enums;
 
 public enum DeviceEtat {
 

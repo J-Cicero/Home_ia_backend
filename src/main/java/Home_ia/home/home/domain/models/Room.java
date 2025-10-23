@@ -1,4 +1,4 @@
-package home.domain.models;
+package Home_ia.home.home.domain.models;
 
 import jakarta.persistence.*;
 import lombok.Getter;

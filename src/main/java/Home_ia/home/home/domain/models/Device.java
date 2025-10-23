@@ -1,6 +1,6 @@
-package home.domain.models;
+package Home_ia.home.home.domain.models;
 
-import home.domain.enums.DeviceEtat;
+import Home_ia.home.home.domain.enums.DeviceEtat;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
