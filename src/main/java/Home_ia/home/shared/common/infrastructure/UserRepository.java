@@ -1,7 +1,7 @@
-package shared.common.infrastructure;
+package Home_ia.home.shared.common.infrastructure;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import shared.common.domain.models.User;
+import Home_ia.home.shared.common.domain.models.User;
 
 import java.util.Optional;
 import java.util.UUID;

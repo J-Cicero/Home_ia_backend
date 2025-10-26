@@ -1,13 +1,13 @@
-package shared.common.application.services.servicesImp;
+package Home_ia.home.shared.common.application.services.servicesImp;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import shared.common.application.dtos.request.UserRequest;
-import shared.common.application.dtos.response.UserResponse;
-import shared.common.application.mappers.UserMapper;
-import shared.common.application.services.UserService;
-import shared.common.domain.models.User;
-import shared.common.infrastructure.UserRepository;
+import Home_ia.home.shared.common.application.dtos.request.UserRequest;
+import Home_ia.home.shared.common.application.dtos.response.UserResponse;
+import Home_ia.home.shared.common.application.mappers.UserMapper;
+import Home_ia.home.shared.common.application.services.UserService;
+import Home_ia.home.shared.common.domain.models.User;
+import Home_ia.home.shared.common.infrastructure.UserRepository;
 
 import java.util.List;
 import java.util.UUID;

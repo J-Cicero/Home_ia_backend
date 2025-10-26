@@ -1,7 +1,7 @@
-package shared.common.application.services;
+package Home_ia.home.shared.common.application.services;
 
-import shared.common.application.dtos.request.UserRequest;
-import shared.common.application.dtos.response.UserResponse;
+import Home_ia.home.shared.common.application.dtos.request.UserRequest;
+import Home_ia.home.shared.common.application.dtos.response.UserResponse;
 
 import java.util.List;
 import java.util.UUID;

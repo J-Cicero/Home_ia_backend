@@ -1,9 +1,9 @@
-package shared.common.application.mappers;
+package Home_ia.home.shared.common.application.mappers;
 
 import org.springframework.stereotype.Component;
-import shared.common.application.dtos.request.UserRequest;
-import shared.common.application.dtos.response.UserResponse;
-import shared.common.domain.models.User;
+import Home_ia.home.shared.common.application.dtos.request.UserRequest;
+import Home_ia.home.shared.common.application.dtos.response.UserResponse;
+import Home_ia.home.shared.common.domain.models.User;
 
 import java.util.UUID;
 

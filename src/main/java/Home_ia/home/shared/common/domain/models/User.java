@@ -1,9 +1,9 @@
-package shared.common.domain.models;
+package Home_ia.home.shared.common.domain.models;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import shared.common.domain.enums.TypeRole;
+import Home_ia.home.shared.common.domain.enums.TypeRole;
 
 import java.util.UUID;
 

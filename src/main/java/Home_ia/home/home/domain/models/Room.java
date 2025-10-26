@@ -22,8 +22,9 @@ public class Room {
     @Column(name = "name" , nullable = false , length = 30)
     private String name;
 
-//    @OneToMany(fetch = FetchType.EAGER)
-  //  private Device device;
+   @ManyToOne(fetch = FetchType.EAGER)
+   @JoinColumn(name = "device_id")
+   private Device device;
 
 
 }

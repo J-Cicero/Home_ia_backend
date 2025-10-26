@@ -1,6 +1,6 @@
-package shared.common.application.dtos.request;
+package Home_ia.home.shared.common.application.dtos.request;
 
-import shared.common.domain.enums.TypeRole;
+import Home_ia.home.shared.common.domain.enums.TypeRole;
 
 public record UserRequest (
         String name,

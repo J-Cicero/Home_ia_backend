@@ -1,6 +1,6 @@
-package shared.common.application.dtos.response;
+package Home_ia.home.shared.common.application.dtos.response;
 
-import shared.common.domain.enums.TypeRole;
+import Home_ia.home.shared.common.domain.enums.TypeRole;
 
 import java.util.UUID;
 

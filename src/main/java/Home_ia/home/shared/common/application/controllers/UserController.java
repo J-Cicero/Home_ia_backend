@@ -1,4 +1,4 @@
-package shared.common.application.controllers;
+package Home_ia.home.shared.common.application.controllers;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -6,14 +6,12 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import shared.common.application.dtos.request.UserRequest;
-import shared.common.application.dtos.response.UserResponse;
-import shared.common.application.services.UserService;
+import Home_ia.home.shared.common.application.dtos.request.UserRequest;
+import Home_ia.home.shared.common.application.dtos.response.UserResponse;
+import Home_ia.home.shared.common.application.services.UserService;
 
 import java.util.List;
 import java.util.Map;
