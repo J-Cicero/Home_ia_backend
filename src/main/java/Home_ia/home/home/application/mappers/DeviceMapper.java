@@ -1,6 +1,7 @@
 package Home_ia.home.home.application.mappers;
 
 import Home_ia.home.home.application.dtos.requests.DeviceRequest;
+import Home_ia.home.home.application.dtos.responses.DeviceResponse;
 import Home_ia.home.home.domain.models.Device;
 import org.springframework.stereotype.Component;
 
@@ -23,5 +24,32 @@ public class DeviceMapper {
         return device;
     }
 
+    public DeviceResponse toResponse(Device device){
 
+        if(device == null){
+            throw new IllegalArgumentException("entity cannot null");
+        }
+
+        return new DeviceResponse(
+                device.getTrackingId(),
+                device.getName(),
+                device.getAdressIp(),
+                device.getEtat()
+        );
+
+    }
+
+    public Device toEntityFromResponse(DeviceResponse response){
+        if(response == null){
+            throw new IllegalArgumentException("response cannot null");
+        }
+
+        Device device = new Device();
+
+        device.setName(response.name());
+        device.setEtat(response.etat());
+        device.setAdressIp(response.adressIp());
+
+        return device;
+    }
 }

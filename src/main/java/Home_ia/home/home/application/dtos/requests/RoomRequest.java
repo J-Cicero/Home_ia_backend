@@ -6,6 +6,6 @@ public record RoomRequest(
 
         String name,
 
-        UUID device
+        UUID trackingDevice_Id
 ) {
 }
